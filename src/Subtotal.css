@@ -1,0 +1,19 @@
+/* .total__label{
+    padding:20px
+} */
+
+.subtotal__box{
+    
+    display: flex;
+    padding:30px 90px;
+    background-color:#f3f3f3;
+    /* border: solid 1px lightgray; */
+    border-radius: 2px;
+    margin-right: 200px;
+    justify-content: space-between;
+    
+
+}
+.subtotal__name{
+    padding-right: 20px;
+}

@@ -1,0 +1,46 @@
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    
+}
+.home__left{
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+.home__right{
+    flex:0.5;
+}
+.home__text{
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.home__left__pic{
+    object-fit: contain;
+    opacity: 0.4;
+    height: 500px;
+    width:600px;
+    position: relative;
+    top:200px;
+}
+.home__right__pic{
+    object-fit: contain;
+}
+
+@media(max-width:970px){
+   
+    .home{
+      flex-direction:  column;
+    }
+    
+
+}
+
+a > button{
+padding: 20px;
+}
+

@@ -1,0 +1,49 @@
+.homeMiddle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.homeMiddle__benefits{
+   
+    font-family: "Playfair Display","Helvetica Neue",sans-serif;
+
+    font-weight: bold;
+    color:#709fb0;
+    font-size: 150%;
+    padding-top:20px;
+    padding-left:20px;  
+
+
+
+}
+.homeMiddle__list{
+    font-family: "Playfair Display","Helvetica Neue",sans-serif;
+    position: relative;
+    top: 10%;
+    left: 5%;
+    font-size: 35px;
+    background-color: #f4f4f4;
+    padding-left:20px;
+
+}
+.homeMiddle__list>li{
+    padding: 30px;
+    color:#145374;
+    font-weight: 900;
+    list-style-type: none;
+
+
+}
+li>span{
+    font-family: "norican"    ;
+    font-weight: bold;
+    color:#0f3460;
+    
+}
+
+
+
+
+
+    

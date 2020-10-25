@@ -1,0 +1,24 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top:0; 
+    z-index: 100; 
+    background-color:#f6f6f6;
+    padding: 30px;
+    width: 100%;
+
+  
+}
+
+.header__link{
+    text-decoration: none;
+    color:black;
+    font-family: "norican" ;   
+    font-weight: bold;
+    font-size: 23px;
+
+}
+.header__icon{
+    color:black
+}

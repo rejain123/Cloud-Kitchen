@@ -1,0 +1,44 @@
+.checkout{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.checkout__label{
+    font-family: "Playfair Display","Helvetica Neue",sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    margin:30px 100px;
+}
+
+.checkout__totalLabel{
+   
+    margin: 20px;
+}
+.checkout__box{
+    margin-right: 200px;
+    /* background-color:#f4f4f4; */
+    background-color: #f7f7f7;
+    border: solid 1px lightgray;
+    border-radius: 2px;
+    padding:20px;
+    margin-top: 60px;
+    width:50%;
+
+
+
+}
+.checkout__totalPrice{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.checkout__totalItems{
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.checkout__right > button{
+    margin-top: 40px;
+    padding:10px;
+}
